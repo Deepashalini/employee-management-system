@@ -11,7 +11,7 @@ class EmployeeServiceTest {
         EmployeeService service = new EmployeeService();
 
         assertEquals(
-            "Employee API added by Developer A",
+            "Employee API modified by Developer B",
             service.getEmployee()
         );
     }
